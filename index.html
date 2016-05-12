@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/sound.js"></script>
+    <script>
+        sounds.load(
+            ['sounds/gem_sound.mp3',
+            'sounds/slime_death.mp3',
+            'sounds/bounce.mp3',
+            'sounds/Trump_Good People.mp3',
+            'sounds/Trump_Crime.mp3',
+            'sounds/Trump_Drugs.mp3',
+            'sounds/Trump_Rapists.mp3'
+
+        ]);
+
+        sounds.whenLoaded = setup;
+
+
+        function setup() {
+            console.log('sounds loaded');
+
+
+
+        }
+    </script>
+
+    <audio controls autoplay loop>
+        <source src="sounds/Speak No Evil.mp3" type="audio/mpeg"></audio>
+
+</body>
+
+</html>
