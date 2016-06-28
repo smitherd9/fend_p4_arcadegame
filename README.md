@@ -2,7 +2,7 @@ frontend-nanodegree-arcade-game
 ===============================
 
 # URL:
-[Frogger Clone](https://smitherd9.github.io)
+[Frogger Clone](https://smitherd9.github.io/fend_p4_arcadegame)
 
 # Objective:
 The player has been incarnated as Bernie Sanders' head and must effectively dodge streaming Donald Trump heads
